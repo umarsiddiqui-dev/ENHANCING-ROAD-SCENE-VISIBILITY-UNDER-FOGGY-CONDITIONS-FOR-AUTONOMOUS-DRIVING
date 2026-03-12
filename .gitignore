@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+frontend/dist/
+frontend/.env
+backend/.env
+
+# Temporary files & Logs
+npm-debug.log
+yarn-error.log
+backend/*.log
+backend/test_yolo.py
+backend/requirements.txt.bak
+frontend/.eslintcache
+
+
+# Models and checkpoints (if applicable and large)
+backend/yolov5s.pt
+backend/yolov5su.pt
+backend/runs/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
